@@ -10,10 +10,102 @@
     <script src="map.js"></script>
 </head>
 <body>
-  <h1>地理院タイルサンプル地図</h1>
+  <div class="heading" id="main-title">
+    <h1>Web工学特論</h1>
+</div>
+<div class="contents">
+    <div class="time_table">
+        <table>
+            <caption class="heading">時間割</caption>
+            <tr>
+                <th></th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td></td>
+                <td>Badminton</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td></td>
+                <td rowspan="2">Operating Systems</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="2">Geology</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td></td>
+                <td>Foundation of Computers</td>
+                <td></td>
+                <td>Foundation of Computers</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="3">Macroeconomics</td>
+                <td rowspan="3">Web Engineering</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>7</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="introduction">
+        <div class="subheadding">自己紹介</div>
+        <div class="small_contents">
+            <a href="https://en.wikipedia.org/wiki/Doraemon_(character)">Facebook</a>
+        </div>
+    </div>
+    <h2 class="subheadding">ポップアラート</h2>
+    <h3 class="small_contents", id="sample1">Click here</h3>
+
+    <h2 class="subheadding">時計</h2>
+    <p><input type="text" size="50" id="clock" /></p>
+
+    <h2 class="subheadding">タイマー</h2>
+    <div class="small_contents", id="etime"></div>
+    <div>
+        <input type="submit" value="Restart" id="restart" /></div>
+    </div>
+  <h1 class="subheadding">地理院タイルサンプル地図</h1>
   <div id="mapid"></div>	
-  <p>サンプル地図：ここまで。</p>
-<div id='center'>
+<div class="small_contents" id='center'>
+  <p >サンプル地図：ここまで。</p>
 </div>
 </body>
 </html>
